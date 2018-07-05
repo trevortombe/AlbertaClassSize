@@ -46,5 +46,5 @@ ggplot(plotdata,aes(nbr_students,as.character(sch_yr)))+
        caption="Graph by @trevortombe",
        subtitle="Source: Government of Alberta data https://open.alberta.ca/opendata/class-size-by-school-year-jurisdiction-and-grade-alberta
 Data illustrated here excludes split classes.")
-ggsave("plot.png",width=8,height=8,dpi=300)
+ggsave("plot2.png",width=8,height=8,dpi=300)
 
